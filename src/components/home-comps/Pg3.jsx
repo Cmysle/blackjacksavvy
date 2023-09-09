@@ -1,46 +1,31 @@
 import { logo } from "../../assets";
 import { Link } from "react-router-dom";
+import { ctabackground } from "../../assets";
 
 const Pg3 = () => {
   return (
-    <section className="bg-[url(https://tunicatravel.com/wp-content/uploads/CZ4A2219-scaled.jpg)] bg-center bg-cover absolute w-full h-screen mx-auto flex">
-      <div className="relative bg-yellow-100 opacity-[.80] sm:w-1/3 w-5/6 sm:h-4/5 h-5/6 flex sm:ml-24 ml-8 sm:mt-32 mt-16 rounded-3xl flex flex-col justify-start">
+    <section className="bg-ctabackground bg-center bg-cover absolute w-full  mx-auto flex">
+      <div className="relative bg-yellow-100 opacity-[.80] lg:w-5/12 md:w-7/12 w-5/6 md:h-4/5 h-5/6 flex md:mx-12 mx-auto md:my-12 my-8 rounded-3xl flex flex-col justify-start">
         <h1 className="text-center text-2xl mt-5 h-fit">
           Create Your Winning Profile Today!
         </h1>
-        <ul className="self-center pt-10 sm:w-[440px] w-[280px]">
+        <ul className="self-center pt-10 md:w-11/12 w-5/6">
           <li className="pb-5">
             • Keep a detailed log of every game session, recording your
-            strategies, moves, and outcomes.
-            <span className="sm:block hidden">
-              {" "}
-              Understand your gameplay better with each session tracked on
-              BlackjackSavvy.
-            </span>
+            strategies, moves, and outcomes. <span className="xl:inline hidden">Understand your gameplay better with each session tracked on BlackjackSavvy.</span>
           </li>
           <li className="pb-5">
-            • Dive deeper into your game data with our analysis tools.
-            <span className="sm:block hidden">
-              {" "}
-              Review your play style, identify trends, and make data-driven
-              decisions to improve your strategy over time.
-            </span>
+            • Dive deeper into your game data with our analysis tools. <span className="xl:inline hidden">Review your play style, identify trends, and make data-driven decisions to improve your strategy over time.</span>
           </li>
           <li className="pb-5">
             • Get a comprehensive view of your gaming performance with our
-            insights feature.
-            <span className="sm:block hidden">
-              {" "}
-              Discover your strengths and areas of improvement, helping you
+            insights feature. <span className="xl:inline hidden">Discover your strengths and areas of improvement, helping you
               evolve into a savvy player.
             </span>
           </li>
           <li className="pb-5">
             • With BlackjackSavvy, it's not just about tracking; it's about
-            advancing your gameplay.
-            <span className="sm:block hidden">
-              {" "}
-              Use the data and insights to refine your strategies, experiment
+            advancing your gameplay. <span className="xl:inline hidden">Use the data and insights to refine your strategies, experiment
               with new approaches, and find the winning edge.
             </span>
           </li>
@@ -50,19 +35,19 @@ const Pg3 = () => {
             Create A Profile
           </button>
         </Link>
-        <p className="self-center text-center text-md mt-5 sm:w-[440px] w-[280px]">
+        <p className="self-center text-center text-md mt-5 md:w-11/12 w-5/6">
           Become a part of a community where every play is a step towards
           mastery. Play Smarter, Win Bigger.
         </p>
-        <p className="self-center text-center text-sm mt-1 sm:w-[440px] w-[280px]">
+        <p className="self-center text-center text-sm mt-1 md:w-11/12 w-5/6">
           © 2023 BlackjackSavvy. All Rights Reserved.
         </p>
       </div>
-      <div className="w-fit h-full flex justify-center">
+      <div className="w-fit h-full my-auto flex justify-center">
         <img
           src={logo}
           alt="logo"
-          className="sm:block hidden w-2/3 opacity-[.80]"
+          className="md:block hidden w-5/6 opacity-[.80]"
         />
       </div>
     </section>

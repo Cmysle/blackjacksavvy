@@ -18,3 +18,7 @@
     rgba(60, 51, 80, 0) 100%
   );
 }
+
+.bg-ctabackground {
+  background-image: url('./assets/CTAbackground.jpg'); /* You can also use `logo` if the imported SVG is in the same directory as this CSS file */
+}
