@@ -20,7 +20,7 @@ const Navbar = () => {
         >
           <img src={logoNavbar} alt="logoNavbar" className="w-52 h-12" />
         </Link>
-        <ul className="list-none hidden sm:flex flew-row gap-10">
+        <ul className="list-none hidden sm:flex flew-row gap-10 sm:pr-4">
           <li
             className={`${
               active === "tracker" ? "text-white" : "text-gray-700"
