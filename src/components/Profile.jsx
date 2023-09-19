@@ -19,19 +19,17 @@ const Profile = () => {
                 <div className="bg-yellow-200 p-5 rounded-xl lg:h-4/6 h-5/6 lg:w-4/5 sm:w-5/6 w-full mx-auto my-auto grid grid-rows-[1.5fr_0.75fr_0.76=5]">
                   <h1 className="font-bold text-gray-600 text-4xl">Register</h1>
                   <div className="">
-                    <p>Email:</p>
+                    <p>Email Address:</p>
                     <input
                       type="email"
-                      placeholder="Email Address"
-                      className="w-full text-xl rounded-md border-2"
+                      className="w-full md:text-xl text-sm rounded-md border-2"
                     />
                   </div>
                   <div className="">
                     <p>Password:</p>
                     <input
                       type="password"
-                      placeholder="Password"
-                      className="w-full text-xl rounded-md border-2"
+                      className="w-full md:text-xl text-sm rounded-md border-2"
                     />
                   </div>
                   <div className="w-full h-fit flex justify-center">
@@ -66,19 +64,17 @@ const Profile = () => {
                 <div className="bg-yellow-200 p-5 rounded-xl lg:h-4/6 h-5/6 lg:w-4/5 sm:w-5/6 w-full mx-auto my-auto grid grid-rows-[1.5fr_0.75fr_0.76=5]">
                   <h1 className="font-bold text-gray-600 text-4xl">Log In</h1>
                   <div className="">
-                    <p>Email:</p>
+                    <p>Email Address:</p>
                     <input
                       type="email"
-                      placeholder="Email Address"
-                      className="w-full text-xl rounded-md border-2"
+                      className="w-full md:text-xl text-sm rounded-md border-2"
                     />
                   </div>
                   <div className="">
                     <p>Password:</p>
                     <input
                       type="password"
-                      placeholder="Password"
-                      className="w-full text-xl rounded-md border-2"
+                      className="w-full md:text-xl text-sm rounded-md border-2"
                     />
                   </div>
                   <div className="w-full h-fit flex justify-center">

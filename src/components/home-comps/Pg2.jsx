@@ -3,7 +3,7 @@ import { analysis, luckvsskill, safegambling } from "../../assets";
 const Pg2 = ({ targetElementRef }) => {
   return (
     <section
-      className="bg-yellow-100 relative w-full xl:h-screen mx-auto flex justify-center flex-wrap gap-20"
+      className="bg-yellow-100 relative w-full mx-auto flex justify-center flex-wrap gap-20 xl:pb-8"
       id="targetElementId"
       ref={targetElementRef}
     >
